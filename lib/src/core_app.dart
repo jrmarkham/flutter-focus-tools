@@ -34,7 +34,7 @@ class CoreApp extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 FocusBoxItem(
-                                  name: 'channel $idx ',
+                                  name: 'main $idx ',
     autoFocus: idx == 4,
     focusNode: FocusNode()
                                 ),
@@ -47,7 +47,7 @@ class CoreApp extends StatelessWidget {
 
 
                                        FocusBoxItem(
-                                              name: '$idx timeline $jdx ',
+                                              name: '$idx sub $jdx ',
                                               focusNode: FocusNode(),
                                          skipTraversal: jdx == 3,
 
